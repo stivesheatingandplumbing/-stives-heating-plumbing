@@ -35,3 +35,21 @@ footer{background:var(--navy);color:#fff;padding:30px 5%;display:grid;grid-templ
   .review-arrow{width:32px;height:32px;font-size:24px}
   .review-card{flex:0 0 100%;min-height:260px;padding:18px}
 }
+
+
+/* Mobile review carousel compact spacing */
+@media(max-width:800px){
+  .reviews{padding:20px 3.5% 22px}
+  .section-title{margin-bottom:12px}
+  .section-title h2{font-size:25px;line-height:1.1}
+  .reviews-sub{font-size:15px}
+  .google-link{margin-top:8px;font-size:15px}
+  .review-carousel{grid-template-columns:30px minmax(0,1fr) 30px;gap:5px}
+  .review-arrow{width:30px;height:30px;font-size:22px}
+  .review-card{min-height:0;padding:14px 14px 15px;border-radius:7px}
+  .review-card h3{font-size:20px}
+  .google-label{font-size:11px}
+  .review-card p{font-size:16px;line-height:1.42;margin-top:9px}
+  .stars{font-size:16px;margin:6px 0}
+  .review-dots{margin-top:12px;gap:7px}
+}
